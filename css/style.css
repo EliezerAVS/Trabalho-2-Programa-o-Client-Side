@@ -1,0 +1,48 @@
+h1{
+    font-size: 3vmax;
+    text-align: center;
+}
+label{
+    font-size: 2vmax;
+}
+input{
+    font-size: 2vmax;
+}
+#velocidadeMaxima, #velocidade{
+    width: 5%;
+    text-align: center;
+}
+#entrada{
+    text-align: center;
+    margin-top: 2%;
+}
+#resultado{
+    font-size: 2vmax;
+    text-align: center;
+    margin-top: 1%;
+}
+#condutor{
+    text-align: center;
+    margin-top: 1%;
+}
+#geral{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+table{
+    width: 60%;
+    border: 1px solid;
+}
+th, td{
+    width: 50%;
+    font-size: 2vmax;
+    border: 1px solid;
+}
+#botao{
+    text-align: center;
+    margin-top: 2%;
+}

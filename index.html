@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Verificação de Velocidade</title>
+</head>
+<body>
+    <h1>Verificação de Velocidade</h1>
+    <div id="entrada">
+        <label for="">Digite a velocidade máxima permitida pela via:</label>
+        <br/><br/>
+        <input type="number" id="velocidadeMaxima" name="velocidadeMaxima"/>
+        <br/><br/>
+        <label for="">Digite a velocidade do carro:</label>
+        <br/><br/>
+        <input type="number" id="velocidade" name="velocidade"/>
+        <br/><br/>
+        <input type="button" id="calcular" value="Calcular">
+    </div>
+    <div id="resultado">Resultado</div>
+    <div id="condutor">
+        <label for="">Digite o nome do condutor:</label>
+        <br/><br/>
+        <input type="text" id="nomeCondutor" name="nomeCondutor" size="30"/>
+        <br/><br/>
+        <label for="">Digite o número de habilitação:</label>
+        <br/><br/>
+        <input type="text" id="habilitacao" name="habilitacao" size="30"/>
+        <br/><br/>
+        <a href="./impressao.html" target="_blank"><input type="button" id="gerarImpressao" value="Gerar Impressão"/></a>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

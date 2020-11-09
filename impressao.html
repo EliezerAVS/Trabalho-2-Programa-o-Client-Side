@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Imprimir Verificação de Velocidade</title>
+</head>
+<body>
+    <div id="geral">
+        <table>
+            <tr>
+                <th colspan="2">Verificação de Velocidade</th>
+            </tr>
+            <tr>
+                <th>Nome do condutor</th>
+                <td id="nomeCondutorTabela"></td>
+            </tr>
+            <tr>
+                <th>Número de habilitação</th>
+                <td id="habilitacaoTabela"></td>
+            </tr>
+            <tr>
+                <th>Velocidade máxima permitida pela via</th>
+                <td id="maximaTabela"></td>
+            </tr>
+            <tr>
+                <th>Velocidade do carro</th>
+                <td id="velocidadeTabela"></td>
+            </tr>
+            <tr>
+                <td id="resultadoTabela" colspan="2"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="botao">
+        <input type="button" id="imprimir" value="Imprimir" onclick="print()"/>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
